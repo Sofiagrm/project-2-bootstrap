@@ -1,0 +1,52 @@
+body {
+    color: dimgray;
+    background-color: azure;
+}
+
+section#header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: #a7c4d2;
+}
+
+section#header nav span {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+section#header nav span a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #3a3a43;
+}
+
+/**
+    BEGIN styling boostrap navigation 
+**/
+
+.nav-link {
+    color: #3a3a43;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #3a3a43;
+    background-color: #dcdcdc;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #ae0aca;
+}
+
+/**
+    END styling boostrap navigation 
+**/
+
+div.row div.col {
+    padding: 12px;
+}
+
+.form-container {
+    margin-top: 30px;
+}
